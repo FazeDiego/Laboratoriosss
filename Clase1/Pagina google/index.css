@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.arriba-der {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.top-right a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+.top-right img {
+    width: 24px;
+    height: 24px;
+}
+.logo {
+    width: 272px;
+    margin-bottom: 20px;
+}
+.search-box {
+    width: 580px;
+    border-radius: 24px;
+    padding: 10px 20px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+}
+.botones {
+    margin-top: 20px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
